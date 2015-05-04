@@ -1,9 +1,11 @@
 Tensor Factorization via Matrix Factorization
 =============================================
 
-In the same way as one can compute the eigendecomposition of a matrix, it
-is often possible to decompose a tensor (e.g. a d x d x d array) into a sum of rank-one 
-components. Tensor factorization is a key subroutine in many 
+Just like we can compute the eigendecomposition of a matrix, it
+is often possible to decompose a tensor (e.g. a `d x d x d`j array) into a sum of rank-one 
+components. 
+
+Tensor factorization is a key subroutine in many 
 recent algorithms based on the method of moments for solving problems
 such as:
 
