@@ -1,21 +1,21 @@
 Tensor Factorization via Matrix Factorization
 =============================================
 
-Just like we can compute the eigendecomposition of a matrix, it
-is often possible to decompose a tensor (e.g. a `d x d x d` array) into a sum of rank-one 
+Just as a matrix always has a singular value decomposition, a tensor (e.g., a `d x d x d` array) 
+can often be factorized into a sum of rank-one 
 components. 
 
 Tensor factorization is a key subroutine in many 
 recent algorithms based on the method of moments for solving problems
 such as:
 
-* Learning mixtures of Gaussians (for 
-* Topic modeling (e.g. using the LDA algorithm)
+* Learning mixtures of Gaussians (a way of clustering the data)
+* Topic modeling (e.g., using the LDA algorithm)
 * Learning HMMs for sequence analysis
 
 However, techniques for factorizing tensors are not as well-developed as 
 matrix factorization techniques. The algorithms implemented here instead
-make use of a novel reduction that transforms the problem of factorizing a
+make use of a novel reduction that transforms the problem of finding the CP decomposition of a
 tensor to the problem of jointly diagonalizing a set of matrices.
 
 These ideas have been proposed and analyzed in the following publications:
