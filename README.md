@@ -9,7 +9,7 @@ Tensor factorization is a key subroutine in many
 recent algorithms based on the method of moments for solving problems
 such as:
 
-* Learning mixtures of Gaussians (a way of clustering the data)
+* Learning mixtures of Gaussians (a way of clustering data)
 * Topic modeling (e.g., using the LDA algorithm)
 * Learning HMMs for sequence analysis
 
