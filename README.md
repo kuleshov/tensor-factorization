@@ -14,8 +14,8 @@ such as:
 * Learning HMMs for sequence analysis
 
 However, techniques for factorizing tensors are not as well-developed as 
-matrix factorization techniques. The algorithms implemented here instead
-make use of a novel reduction that transforms the problem of finding the CP decomposition of a
+matrix factorization techniques. The algorithms implemented here instead 
+transform the problem of finding the CP decomposition of a
 tensor to the problem of jointly diagonalizing a set of matrices.
 
 These ideas have been proposed and analyzed in the following publications:
