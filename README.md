@@ -1,7 +1,7 @@
 Tensor Factorization via Matrix Factorization
 =============================================
 
-Just as a matrix always has a singular value decomposition, a tensor (e.g., a `d x d x d` array) 
+In the same way that a matrix always possesses a singular value decomposition, a tensor (e.g., a `d x d x d` array) 
 can often be factorized into a sum of rank-one 
 components. 
 
