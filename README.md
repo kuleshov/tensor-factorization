@@ -1,17 +1,14 @@
 Tensor Factorization via Matrix Factorization
 =============================================
 
-In the same way that a matrix always possesses a singular value decomposition, a tensor (e.g., a `d x d x d` array) 
-can often be factorized into a sum of rank-one 
-components. 
-
-Tensor factorization is a key subroutine in many 
-recent algorithms based on the method of moments for solving problems
+Tensor factorization is a key subroutine in 
+recent algorithms for learning latent variable models using a technique called the method of moments. 
+This technique is applicable to a broad class of models,
 such as:
 
-* Learning mixtures of Gaussians (a way of clustering data)
-* Topic modeling (e.g., using the LDA algorithm)
-* Learning HMMs for sequence analysis
+* Mixtures of Gaussians
+* Topic models (e.g. latent Dirichlet allocation)
+* Hidden Markov models
 
 However, techniques for factorizing tensors are not as well-developed as 
 matrix factorization techniques. The algorithms implemented here instead 
