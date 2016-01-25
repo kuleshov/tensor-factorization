@@ -1,9 +1,9 @@
 Tensor Factorization via Matrix Factorization
 =============================================
 
-Tensor factorization is a key subroutine in 
-recent algorithms for learning latent variable models using a technique called the method of moments. 
-This technique is applicable to a broad class of models,
+Tensor factorization is a key subroutine in several
+recent algorithms for learning latent variable models using the method of moments. 
+This general technique is applicable to a broad class of models,
 such as:
 
 * Mixtures of Gaussians
